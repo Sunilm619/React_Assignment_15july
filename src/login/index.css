@@ -1,0 +1,8 @@
+.bgx {
+    background-image: linear-gradient(rgb(193, 193, 214), rgb(43, 43, 198));
+    height: 100vh;
+    color: brown;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}

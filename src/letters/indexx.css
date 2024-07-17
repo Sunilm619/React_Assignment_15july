@@ -1,0 +1,8 @@
+.bg{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/stop-watch-with-calculator-img.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-size: x-large;
+}

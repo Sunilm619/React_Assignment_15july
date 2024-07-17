@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+// import Login from './login/Login';
+// import Showhide from './showhide/Showhide';
+// import Letters from './letters/Letters';
+// import Simpletods from './simpletods/Simpletods';
+// import DestinationsList from './destinationsList/DestinationsList';
+// import Google from "./google/Google";
+// import CashWithdrawal from "./cas/Cash";
+// import Evenodd from './evenodd/Evenodd';
+// import Randomnumber from './randomnumber/Randomnumber';
+// import Searchresults from './searchresults/Searchresults';
+// import Subscribe from './subscribe/Subscribe';
+import Counter from './counter/Counter';
+// import Spedometer from './spedometer/Spedometer';
+// import Banana from './banana/Banana';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Counter></Counter>
+      {/* <Spedometer></Spedometer> */}
+      {/* <Banana></Banana> */}
+      {/* <Subscribe></Subscribe> */}
+      {/* <Evenodd></Evenodd> */}
+      {/* <Randomnumber></Randomnumber> */}
+      {/* <Searchresults></Searchresults> */}
+      {/* <DestinationsList></DestinationsList> */}
+      {/* <Simpletods></Simpletods> */}
+      {/* <Letters></Letters> */}
+      {/* <Showhide></Showhide> */}
+      {/* <Login></Login> */}
+      {/* <CashWithdrawal></CashWithdrawal> */}
+      {/* <Google></Google> */}
     </div>
   );
 }
